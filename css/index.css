@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.6;
+}
+header,footer{
+    background-color: rgb(28, 26, 24);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+nav{
+    background-color: rgb(39, 60, 53);
+    text-align: center;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+nav a:hover{
+    background-color: rgb(30, 30, 67);
+    color: black;
+    border-radius: 4px;
+}
+main{
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+section{
+    margin-bottom: 30px;
+}
+.AboutUs-img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+ul,ol{
+    background-color: rgb(44, 29, 58);
+    padding: 15px;
+    border-radius: 5px;
+}
+li{
+    margin-bottom: 5px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid rgb(75, 65, 65);
+    padding: 12px;
+    text-align: left;
+}
+th{
+    background-color: rgb(73, 48, 48);
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(44, 56, 52);
+}
+.re-form{
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.reg-form textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card{
+    display: block;
+    flex: 1 1 200px;
+    border: 1px solid rgb(89, 13, 13);
+    padding: 15px;
+    border-radius: 5px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    background: blue;
+    color: white;
+    padding: 10px;
+}
+.special-card{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    padding: 3px;
+}
+.back-top{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: black;
+    color: white;
+    padding: 8px;
+}
+.logo{
+    background-color: rgb(42, 27, 108);
+    border-radius: 50px;
+    padding: 20px;
+}
+body{
+    background-color: pink;
+    justify-content: space-between;
+}
